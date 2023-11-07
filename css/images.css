@@ -63,10 +63,10 @@
 }
 
 
-@media only screen and (min-width:786px) {
+@media only screen and (max-width:786px) {
 
     #img-mezelf{
-        float: right;
+        
         height: 50%;
         width:50%;
         margin-left: 10pt;
