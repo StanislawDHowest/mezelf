@@ -6,8 +6,9 @@
 #img-mezelf{
     float: right;
     height: auto;
-    width: 30%;
+    width: 40%;
     margin-left: 10pt;
+    margin-top: -30pt;
     align-self: flex-start;
     max-width: 100%;
 }
@@ -33,6 +34,7 @@
     height: 30%;
     width: 30%;
     margin-left: 10pt;
+    margin-top: -30pt;
 }
 #img-moto-gp{
     float: right;
@@ -61,21 +63,17 @@
     height: 30%;
     width: 30%;
     margin-left: 10pt;
+    margin-top: -20pt;
 
-}
-
-.text-content {
-    order: -1;
 }
 
 
 @media only screen and (max-width:786px) {
 
     #img-mezelf{
-        height: 50%;
-        width:50%;
-        margin-left: 10pt;
-        align-self: flex-end;
+       float: right;
+        height: 20%;
+        width: auto;
     }
     .text-content{
         order: 0;
