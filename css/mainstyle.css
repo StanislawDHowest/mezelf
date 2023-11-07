@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(253, 131, 131);
+}
+
+body.background-mezelf {
+    background-image: url("../images/backgroundMountains.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 200pt;
+}
+
+body.background-opleiding {
+    background-image: url("../images/logoProgram.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: 20pt;
+    background-position-y: 200pt;
+}
+
+body.background-f1 {
+    background-image: url("../images/f1-Background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.background-moto {
+    background-image: url("../images/gsxr.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -800pt;
+}
+
+@media only screen and (min-width:786px) {
+    
+    body{
+        padding: 5%;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+    
+}
+
+section {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-style: solid;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20pt;
+    border-color: white;
+    background-color: rgb(255, 0, 0, 0.5);
+    color: white;
+    width: 50%;
+    display: block;
+    font-size: 1.2em;
+
+
+    
+    
+}
+
+section.noBorder{
+    border: none;
+    background-color: rgb(253, 131, 131);
+}
+
+
+
+footer {
+    color: white;
+    border-top: solid 1px;
+    background: rgba(255, 129, 129, 0.5);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    
+
+}
+
+
+h1 {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-top: 20pt;
+    margin-bottom: 50pt;
+    border-style: solid;
+    border-color: white;
+    width: 40%;
+}
+
+
+
+
+
+
+table.lesrooster {
+    background-color: rgb(253, 131, 131);
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+th {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+td {
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+}
+
+tr{
+    border: 2px solid white;
+}
+
+.row-span {
+   font-weight: bold;
+    background-color: rgb(255, 0, 0, 0.5);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

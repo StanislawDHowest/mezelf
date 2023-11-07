@@ -1,0 +1,126 @@
+
+.clear-fix{
+    overflow: auto;
+}
+
+#img-mezelf{
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin-left: 10pt;
+}
+   
+#img-F1-Max-Ham{
+    float: right;
+    height: 40%;
+    width: 40%;
+    margin-left: 10pt;
+}
+
+#img-F1-Ham{
+
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin-right: 10pt;
+
+}
+
+#img-F1-Max{
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin-left: 10pt;
+}
+#img-moto-gp{
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin-left: 10pt;
+}
+
+#img-moto-honda{
+    float: left;
+    height: 40%;
+    width: 40%;
+    margin-right: 10pt; 
+    margin-left: -20pt;
+}
+
+#img-moto-gsxr600{
+    float: right;
+    height: 25%;
+    width: 25%;
+    margin-left: 10pt;
+}
+
+#img-opleiding-programmeren{
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin-left: 10pt;
+
+}
+
+
+@media only screen and (min-width:786px) {
+
+    #img-mezelf{
+        float: right;
+        height: 50%;
+        width:50%;
+        margin-left: 10pt;
+    }
+       
+    #img-F1-Max-Ham{
+        float: right;
+        height: 100%;
+        width: 100%;
+        margin-left: 10pt;
+    }
+    
+    #img-F1-Ham{
+    
+        float: left;
+        height: 30%;
+        width: 30%;
+        margin-right: 10pt;
+    
+    }
+    
+    #img-F1-Max{
+        float: right;
+        height: 30%;
+        width: 30%;
+        margin-left: 10pt;
+    }
+    #img-moto-gp{
+        float: right;
+        height: 30%;
+        width: 30%;
+        margin-left: 10pt;
+    }
+    
+    #img-moto-honda{
+        float: left;
+        height: 40%;
+        width: 40%;
+        margin-right: 10pt; 
+        margin-left: -20pt;
+    }
+    
+    #img-moto-gsxr600{
+        float: right;
+        height: 25%;
+        width: 25%;
+        margin-left: 10pt;
+    }
+    
+    #img-opleiding-programmeren{
+        float: right;
+        height: 30%;
+        width: 30%;
+        margin-left: 10pt;
+
+    }
+}
