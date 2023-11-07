@@ -9,7 +9,6 @@
     width: 40%;
     margin-left: 10pt;
     margin-top: -30pt;
-    align-self: flex-start;
     max-width: 100%;
 }
    
@@ -72,62 +71,62 @@
 
     #img-mezelf{
        float: right;
-        height: 20%;
-        width: auto;
+        height: 60%;
+        width: 60%;
+        margin-top: 0;
     }
-    .text-content{
-        order: 0;
-    }
-       
+   
     #img-F1-Max-Ham{
         float: right;
-        height: 40%;
-        width: 40%;
+        height: 60%;
+        width: 60%;
         margin-left: 10pt;
     }
     
     #img-F1-Ham{
     
         float: left;
-        height: 30%;
-        width: 30%;
+        height: 50%;
+        width: 50%;
         margin-right: 10pt;
     
     }
     
     #img-F1-Max{
         float: right;
-        height: 30%;
-        width: 30%;
+        height: 50%;
+        width: 50%;
         margin-left: 10pt;
+        margin-top: -30pt;
     }
     #img-moto-gp{
         float: right;
-        height: 30%;
-        width: 30%;
+        height: 50%;
+        width: 50%;
         margin-left: 10pt;
     }
     
     #img-moto-honda{
         float: left;
-        height: 40%;
-        width: 40%;
+        height: 60%;
+        width: 60%;
         margin-right: 10pt; 
         margin-left: -20pt;
     }
     
     #img-moto-gsxr600{
         float: right;
-        height: 25%;
-        width: 25%;
+        height: 45%;
+        width: 45%;
         margin-left: 10pt;
     }
     
     #img-opleiding-programmeren{
         float: right;
-        height: 30%;
-        width: 30%;
+        height: 50%;
+        width: 50%;
         margin-left: 10pt;
-
+        margin-top: 0;
+    
     }
 }
