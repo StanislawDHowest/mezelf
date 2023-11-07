@@ -5,9 +5,11 @@
 
 #img-mezelf{
     float: right;
-    height: 30%;
+    height: auto;
     width: 30%;
     margin-left: 10pt;
+    align-self: flex-start;
+    max-width: 100%;
 }
    
 #img-F1-Max-Ham{
@@ -62,14 +64,21 @@
 
 }
 
+.text-content {
+    order: -1;
+}
+
 
 @media only screen and (max-width:786px) {
 
     #img-mezelf{
-        
         height: 50%;
         width:50%;
         margin-left: 10pt;
+        align-self: flex-end;
+    }
+    .text-content{
+        order: 0;
     }
        
     #img-F1-Max-Ham{
